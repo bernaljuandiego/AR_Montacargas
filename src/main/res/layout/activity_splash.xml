@@ -19,6 +19,17 @@
         app:cardElevation="20dp">
 
         <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:adjustViewBounds="false"
+            android:baselineAlignBottom="false"
+            android:cropToPadding="false"
+            android:scaleType="fitEnd"
+            app:srcCompat="@drawable/logo_konrad" />
+
+        <ImageView
             android:id="@+id/cargadorImagen"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
