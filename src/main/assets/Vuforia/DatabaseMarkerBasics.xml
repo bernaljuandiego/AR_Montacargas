@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="marcador_colores_final_low2" size="10.160000 7.112000" />
+    <ImageTarget name="Marcador_B" size="9.790000 8.145684" />
+    <ImageTarget name="Marcador_A" size="9.790000 8.440568" />
+    <CylinderTarget name="Cohete" sideLength="10.690000"/>
+  </Tracking>
+</QCARConfig>
