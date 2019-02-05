@@ -54,7 +54,7 @@ public class SplashActivity extends AppCompatActivity {
                             public void onAnimationEnd(Animation animation) {
                                 ImageView j = (ImageView) findViewById(R.id.cargadorImagen);
                                 j.setAlpha(0.0f);
-                                Intent intent = new Intent(SplashActivity.this, MainActivity.class);
+                                Intent intent = new Intent(SplashActivity.this, Main2Activity.class);
                                 intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                                 startActivity(intent);
                                 SplashActivity.this.finish();
